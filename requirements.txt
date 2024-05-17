@@ -1,5 +1,5 @@
-discord.py
-pymongo
+discord.py==1.7.3
+pymongo==3.10.1
 requests
 colorama
 urllib3

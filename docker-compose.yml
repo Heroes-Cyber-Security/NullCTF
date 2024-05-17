@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  nullctf:
+    build:
+      context: .
+      # network: host
+    image: nullctf:latest
+    container_name: nullctf
+    restart: unless-stopped
+    #network_mode: host
